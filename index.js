@@ -35,8 +35,7 @@ app.use('/teachers', teachers);
 app.use('/feedback', feedbacks); 
 
 // Start the serv  er
-const port = 3000;
-const ip = '192.168.211.125'; // Replace with your local IP address
-app.listen(port, ip, () => {                                
-  console.log(`Server is running at http://${ip}:${port}`);
-}); 
+const port = 7000;
+app.listen(port, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
