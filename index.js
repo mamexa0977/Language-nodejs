@@ -34,7 +34,7 @@ app.use('/admin', admin);
 app.use('/teachers', teachers);
 app.use('/feedback', feedbacks); 
 
-// Start the server
+// Start the serv  er
 const port = 3000;
 const ip = '192.168.211.125'; // Replace with your local IP address
 app.listen(port, ip, () => {                                
