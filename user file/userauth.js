@@ -203,7 +203,7 @@ router.get('/registered-language', async (req, res) => {
   }
 });
 
-router.get('/registration-chart-data', verifyToken, async (req, res) => {
+router.get('/registration-chart-data', /*verifyToken,*/ async (req, res) => {
   try {
     
     const result = await User.aggregate([
@@ -259,7 +259,7 @@ router.get('/registration-chart-data', verifyToken, async (req, res) => {
           }
 });
 
-router.get('/getuser', verifyToken, async (req, res) => {
+router.get('/getuser',/*verifyToken,*/  async (req, res) => {
     try {
       const users = await User.getAllUsers();
       res.status(200).json(users);
