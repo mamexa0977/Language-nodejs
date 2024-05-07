@@ -37,5 +37,5 @@ app.use('/feedback', feedbacks);
 // Start the serv  er
 const port = 7000;
 app.listen(port, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${port}`);
 });
