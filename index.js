@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 mongoose
-  .connect('mongodb+srv://mamex:jaksonfafa@cluster0.z65xuf6.mongodb.net/languagelearning?retryWrites=true&w=majority', {
+  .connect('mongodb+srv://user@cluster0.z65xuf6.mongodb.net/languagelearning?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
